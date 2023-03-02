@@ -1,5 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 body {
@@ -14,9 +15,42 @@ header {
 h1 {
     font-weight: 900;
     color: #e53170;
-    margin-bottom: 50px;
+    margin: 40px 0;
 }
 
 h1 ~ h4 {
     font-weight: 400;
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    height: 100px;
+    width: 300px;
+    background-color: #0f0e17;
+    color: white;
+}
+
+section > img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+section > h3 {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+section > p {
+    margin: 10px 0;
+}
+
+section > a {
+    text-decoration: none;
+    color: #14c8f2;
 }
