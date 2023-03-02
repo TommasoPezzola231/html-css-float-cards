@@ -34,6 +34,9 @@ section {
     color: white;
     float: left;
     margin: 20px;
+    box-shadow: 10px 10px 9px 0px rgba(0,0,0,0.42);
+-webkit-box-shadow: 10px 10px 9px 0px rgba(0,0,0,0.42);
+-moz-box-shadow: 10px 10px 9px 0px rgba(0,0,0,0.42);
 }
 
 section > img {
