@@ -32,6 +32,8 @@ section {
     width: 300px;
     background-color: #0f0e17;
     color: white;
+    float: left;
+    margin: 20px;
 }
 
 section > img {
