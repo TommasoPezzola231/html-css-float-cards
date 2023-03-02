@@ -27,6 +27,12 @@ main {
     padding: 20px;
 }
 
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 section {
     height: 100px;
     width: 300px;
@@ -49,10 +55,13 @@ section > img {
 section > h3 {
     padding-top: 10px;
     margin-bottom: 10px;
+    font-weight: 800;
 }
 
 section > p {
     margin: 10px 0;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 section > a {
