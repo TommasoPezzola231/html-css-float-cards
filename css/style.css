@@ -35,7 +35,7 @@ main::after {
 
 section {
     height: 100px;
-    width: 300px;
+    width: calc(100% / 3 - 40px);
     background-color: #0f0e17;
     color: white;
     float: left;
